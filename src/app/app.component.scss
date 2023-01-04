@@ -1,6 +1,17 @@
 .container {
-    h1 {
-        display: flex;
-        justify-content: center;
-    }
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  section {
+    height: 80vh;
+    //   border: 10px solid salmon;
+    display: flex;
+    justify-content: space-around;
+  }
 }
